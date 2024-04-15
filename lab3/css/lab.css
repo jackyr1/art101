@@ -7,3 +7,32 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  .ss{
+    display: block;
+    margin: 0 auto;
+    max-width: 750px;
+  }
+
+  .ss2{
+    display: block;
+    margin: 0 auto;
+    max-width: 750px;
+  }
+
+  .ss3{
+    display: block;
+    margin: 0 auto;
+    max-width: 750px;
+  }
+
+  .ss4{
+    display: block;
+    margin: 0 auto;
+    max-width: 750px;
+  }
+
+  figcaption {
+    text-align: center;
+    font-size: 120%;
+}
