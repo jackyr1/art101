@@ -1,6 +1,8 @@
 /* this css file will only style the homepage of our site */
 
 .self{
+  display: block;
+  float: right;
   margin: 10px;
-  max-width: 200px;
+  max-width: 250px;
 }
