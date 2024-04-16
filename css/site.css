@@ -19,12 +19,22 @@ h1 {
   word-spacing: 5px;
   font-size: 200%;
   font-weight: bold;
+  text-indent: 525px;
+}
+
+h2{
+  margin-left: 5px;
+}
+
+h3{
+  margin-left: 15px;
+  font-size: 140%;
 }
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
-  margin: 10px;
-  padding: 10px;
+  margin: 15px;
+  padding: 25px;
   border: solid 1px #0026ff;
   background-color: #74747e;
 }
@@ -32,7 +42,6 @@ h1 {
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
-  margin-bottom: 10px;
   border: solid 1px #0026ff;
   background-color: #848584;
 }
@@ -45,4 +54,12 @@ a {
 
 .link-pile {
   list-style: none;
+}
+
+p{
+  margin-bottom: 90px;
+  font-size: 106%;
+  word-spacing: 5px;
+  line-height: 25px;
+  margin-left: 5px;
 }
