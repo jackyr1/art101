@@ -4,7 +4,8 @@
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
-  background-color: #4369b9;
+  background-image: url('https://t4.ftcdn.net/jpg/02/40/63/55/360_F_240635575_EJifwRAbKsVTDnA3QE0bCsWG5TLhUNEZ.jpg');
+  background-size: 100%;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
@@ -43,7 +44,7 @@ h3{
 .minor-section {
   padding: 10px;
   border: solid 1px #0026ff;
-  background-color: #848584;
+  background-color: aliceblue;
 }
 
 a {
