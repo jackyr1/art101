@@ -15,7 +15,7 @@
 }
 
 h1{
-  text-indent: 500px;
+  text-indent: 400px;
   color: white;
   font-size: 30px;
 }
@@ -31,4 +31,14 @@ h3{
   margin: 10px;
 }
 
+.container{
+  padding: 210px;
+  margin-top: 10px;
+  border: solid 1px #888;
+  background-color: #5f71a1;
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
 
