@@ -7,22 +7,30 @@
 }
 
 .cat{
-  max-width: 380px;
+  max-width: 360px;
   margin: 10px;
 }
 
 .cat2{
-  max-width: 180px;
+  max-width: 160px;
   margin: 10px;
 }
 
 .cat3{
-  max-width: 180px;
+  max-width: 160px;
   margin: 10px;
+}
+
+h2{
+  margin-left: 5px;
+  font-size: 30px;
 }
 
 .minor-section{
   font-weight: bold;
+  font-family: 'Courier New', monospace;
+  font-size: 21px;
   background-size: 70%;
-  background-image: url('https://images.squarespace-cdn.com/content/542c0343e4b0ecfba8ea01d5/1593085047060-CMEBILBBROBEZF5M55TH/image-asset.png');
+  background-image: url('https://cdn.vectorstock.com/i/1000x1000/28/05/seamless-pattern-with-hand-draw-funny-cats-vector-11232805.webp');
 }
+

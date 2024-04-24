@@ -5,5 +5,37 @@
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: aliceblue;
+    background-color: #5f71a1;
+    font-family: 'Courier New', monospace;
+    font-size: 18px;
+  }
+  
+  #content{
+    background-color: #2f439b;
+  }
+  
+  h1{
+    text-indent: 300px;
+    color: white;
+    font-size: 30px;
+  }
+
+.container{
+  display: flex;
+  padding:  10px;
+}
+
+  .left{
+    font-size: 15px;
+    flex: 1;
+  }
+
+  .right{
+    font-size: 15px;
+    flex: 2;
+  }
+
+  p{
+    margin-bottom: 0;
+    font-weight: bold;
   }

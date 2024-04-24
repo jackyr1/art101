@@ -37,20 +37,21 @@ h3{
   margin: 15px;
   padding: 25px;
   border: solid 1px #0026ff;
-  background-color: #74747e;
+  background-color: #5f71a1;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   border: solid 1px #0026ff;
-  background-color: aliceblue;
+  background-color: #5f71a1;
 }
 
 a {
   font-family: 'Courier New', monospace;
   line-height: 2;
   color: #000000;
+  font-size: 17px;
 }
 
 .link-pile {

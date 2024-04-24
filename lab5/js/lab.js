@@ -19,3 +19,8 @@ function main() {
 
 // let's get this party started
 main();
+
+make = "Ford";
+model = "Mustang";
+color = "Blue";
+year = 2011;
