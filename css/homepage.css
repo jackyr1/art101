@@ -17,7 +17,7 @@
 }
 
 .cat3{
-  max-width: 160px;
+  max-width: 360px;
   margin: 10px;
 }
 
@@ -30,6 +30,13 @@ h2{
   font-weight: bold;
   font-family: 'Courier New', monospace;
   font-size: 21px;
+  background-size: 70%;
+  background-image: url('https://cdn.vectorstock.com/i/1000x1000/28/05/seamless-pattern-with-hand-draw-funny-cats-vector-11232805.webp');
+}
+
+.container{
+  margin: 25px;
+  display: center;
   background-size: 70%;
   background-image: url('https://cdn.vectorstock.com/i/1000x1000/28/05/seamless-pattern-with-hand-draw-funny-cats-vector-11232805.webp');
 }
