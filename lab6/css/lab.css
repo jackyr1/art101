@@ -19,3 +19,25 @@ h1{
   color: white;
   font-size: 30px;
 }
+
+h3{
+  font-size: 20px;
+  margin-left: 0;
+}
+
+.container{
+  padding: 100px;
+  margin-top: 10px;
+  border: solid 1px #888;
+  background-color: #5f71a1;
+  font-family: 'Courier New', monospace;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.car{
+  max-width: 500px;
+  display: block;
+  margin: 10px;
+}
