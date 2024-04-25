@@ -26,6 +26,10 @@ h2{
   font-size: 30px;
 }
 
+h3{
+  text-align: center;
+}
+
 .minor-section{
   font-weight: bold;
   font-family: 'Courier New', monospace;
@@ -35,7 +39,9 @@ h2{
 }
 
 .container{
-  margin: 25px;
+  border: solid 1px #0026ff;
+  margin: 15px;
+  padding: 0;
   display: center;
   background-size: 70%;
   background-image: url('https://cdn.vectorstock.com/i/1000x1000/28/05/seamless-pattern-with-hand-draw-funny-cats-vector-11232805.webp');

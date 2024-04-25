@@ -20,7 +20,7 @@ h1 {
   word-spacing: 5px;
   font-size: 200%;
   font-weight: bold;
-  text-indent: 525px;
+  text-align: center;
 }
 
 h2{
@@ -56,6 +56,12 @@ a {
 
 .link-pile {
   list-style: none;
+}
+
+.link {
+  list-style: none;
+  float: right;
+  margin: 2px;
 }
 
 p{

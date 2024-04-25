@@ -4,10 +4,10 @@
 h1{
   color: rgb(255, 255, 255);
   padding: 10px;
-  border: solid 3px #089c21;
+  border: solid 3px #0026ff;
   margin-bottom: 10px;
   font-family: 'Courier New', monospace;
-  text-indent: 650px;
+  text-align: center;
   font-size: 30px
 }
 
@@ -16,7 +16,7 @@ h1{
     padding: 10px;
     margin-bottom: 10px;
     font-family: 'Courier New', monospace;
-    text-indent: 550px;
+    text-align: center;
     font-size: 30px
   }
 
@@ -25,11 +25,13 @@ font-size: 25px;
   }
 
   #body{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 3px #089c21;
+    border: solid 3px #0026ff;
     font-family: 'Courier New', monospace;
+    font-size: 106%;
+    line-height: 2;
   }
 
   #content{
@@ -37,7 +39,7 @@ font-size: 25px;
   }
 
   body {
-    background-color: #7b859c;
+    background-image: url('https://t4.ftcdn.net/jpg/02/40/63/55/360_F_240635575_EJifwRAbKsVTDnA3QE0bCsWG5TLhUNEZ.jpg');
   }
 
   .photo{
@@ -54,6 +56,6 @@ font-size: 25px;
     border: solid 1px #888;
   }
 
- link{
-  font-size: 50px;
- }
+  link{
+    font-size: 50px;
+   }
