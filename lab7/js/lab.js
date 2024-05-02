@@ -6,12 +6,14 @@
 // letters of their name
 function getNameAndSort(){
 	const userName = window.prompt("What your name?");
+    // split, sort, join array back to a string
   return userName.split('').sort(). join('');
 }
 
-console.log(getNameAndSort());
-document.writeln("Here's your sorted name: ",
-    getNameAndSort(), "</br>");
+// output
+const sortedName = getNameAndSort();
+console.log(sortedName);
+document.writeln("Here's your sorted name: ", sortedName, "</br>");
 
 
 
