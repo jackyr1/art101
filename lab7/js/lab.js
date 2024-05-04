@@ -10,10 +10,32 @@ function getNameAndSort(){
   return userName.split('').sort(). join('');
 }
 
+
 // output
 const sortedName = getNameAndSort();
 console.log(sortedName);
-document.writeln("Here's your sorted name: ", sortedName, "</br>");
+
+var output = document.createElement("div");
+output.classList.add("name-output");
+
+// Create a new div element for your sorted name
+var div = document.createElement("div");
+div.textContent = "Here's your sorted name: " + sortedName;
+div.classList.add("name-output");
+
+// Append the new <div> containing the sorted name to its parent container
+output.appendChild(div);
+
+// Insert the parent container with all its child content before an existing element with ID "output"
+document.getElementById('output').insertBefore(output, null);
+
+
+
+
+
+
+//document.writeln("Here's your sorted name: ", sortedName, "</br>");
+
 
 
 
