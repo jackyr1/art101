@@ -4,38 +4,16 @@
 
 $("#output").html("Look what it can do!")
 
-// add button to challenge, problems, and reflection section
-$("#challenge").append("<button class= 'buttonC' id='button-challenge'>Make Special</button>");
-$("#problems").append("<button class= 'buttonC' id='button-problems'>Make Special</button>");
-$("#reflection").append("<button class= 'buttonC' id='button-reflection'>Make Special</button>");
-$("#results").append("<button class= 'buttonC' id='button-results'>Make Special</button>");
+// add button to challenge, problems, reflection, and results section
+$(".minor-section").append("<button class= 'buttonC' id='button-pressed'>Cool Button:3</button>");
 
-
-// add a click listener to the challenge button
-$("#button-challenge").click(function(){
+// add a click listener to the all buttons and toggle special effect
+$(".buttonC").click(function(){
     // now add (or subtract) the "special" class to the section
-    $("#challenge").toggleClass("special");
+    $(this).parent().toggleClass("special");
 });
  
 
-// add a click listener to the problems button
-$("#button-problems").click(function(){
-    // now add (or subtract) the "special" class to the section
-    $("#problems").toggleClass("special");
-});
-
-// add a click listener to the reflection button
-$("#button-reflection").click(function(){
-    // now add (or subtract) the "special" class to the section
-    $("#reflection").toggleClass("special");
-});
-
-
-// add a click listener to the reflection button
-$("#button-results").click(function(){
-    // now add (or subtract) the "special" class to the section
-    $("#results").toggleClass("special");
-});
 
 
 
