@@ -4,8 +4,8 @@
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
-  background-image: url('https://t4.ftcdn.net/jpg/02/40/63/55/360_F_240635575_EJifwRAbKsVTDnA3QE0bCsWG5TLhUNEZ.jpg');
   background-size: 100%;
+  background-color: #5f71a1;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
@@ -38,6 +38,7 @@ h3{
   padding: 25px;
   border: solid 1px #0026ff;
   background-color: #5f71a1;
+  background-image: url('https://fancywalls.eu/wp-content/uploads/blue-aesthetic-stars-pattern-repeat-removable-wallpaper-design.jpg');
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
@@ -56,6 +57,7 @@ a {
 
 .link-pile {
   list-style: none;
+  column-width: 450px;
 }
 
 .link {
@@ -72,3 +74,6 @@ p{
   margin-left: 5px;
 }
 
+#home{
+  color: aliceblue;
+}

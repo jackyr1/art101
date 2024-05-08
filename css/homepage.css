@@ -21,6 +21,10 @@
   margin: 10px;
 }
 
+h1{
+  color: aliceblue;
+}
+
 h2{
   margin-left: 5px;
   font-size: 30px;
@@ -28,6 +32,8 @@ h2{
 
 h3{
   text-align: center;
+  font-size: 27px;
+  color: aliceblue;
 }
 
 .minor-section{
@@ -35,15 +41,13 @@ h3{
   font-family: 'Courier New', monospace;
   font-size: 21px;
   background-size: 70%;
-  background-image: url('https://cdn.vectorstock.com/i/1000x1000/28/05/seamless-pattern-with-hand-draw-funny-cats-vector-11232805.webp');
+  background-image: url('');
 }
 
 .container{
-  border: solid 1px #0026ff;
   margin: 15px;
   padding: 0;
   display: center;
   background-size: 70%;
-  background-image: url('https://cdn.vectorstock.com/i/1000x1000/28/05/seamless-pattern-with-hand-draw-funny-cats-vector-11232805.webp');
 }
 
