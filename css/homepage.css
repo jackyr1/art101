@@ -4,6 +4,7 @@
   display: block;
   margin: 10px;
   max-width: 250px;
+  margin-left: 25px;
 }
 
 .cat{
@@ -23,6 +24,7 @@
 
 h1{
   color: aliceblue;
+  font-size: 37px;
 }
 
 h2{

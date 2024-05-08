@@ -5,7 +5,7 @@
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
   background-size: 100%;
-  background-color: #5f71a1;
+  background-image: url('https://t4.ftcdn.net/jpg/02/40/63/55/360_F_240635575_EJifwRAbKsVTDnA3QE0bCsWG5TLhUNEZ.jpg');
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
@@ -74,6 +74,3 @@ p{
   margin-left: 5px;
 }
 
-#home{
-  color: aliceblue;
-}
