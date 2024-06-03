@@ -1,4 +1,4 @@
-// index.js - purpose and description here
+// index.js: purpose and description here
 // Author: Jacky Ramos <jramos54@ucsc.edu>
 // Date: 1 May
 

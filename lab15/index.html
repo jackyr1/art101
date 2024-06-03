@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab 11 - JavaScript Events and Forms</title>
+	<title>Lab 15 - AJAX</title>
   	<meta charset="UTF-8" />
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
@@ -10,7 +10,8 @@
     <script src="js/lab.js" DEFER></script>
 
     <head>
-        <title>Lab 11 - JavaScript Evenets and Forms</title>
+        <title>Lab 15 - AJAX</title>
+		<script src="js/lab15.js" defer></script>
     </head>
 
 </head>
@@ -18,30 +19,25 @@
 
     <main id="content">
 		<section>
-			<h1>Lab 11 - JavaScript Events and Forms</h1>
+			<h1>Lab 15 - AJAX</h1>
 			<div id="challenge" class="minor-section">
 					<h2>Challenge</h2>
-					<p>Our challenge is to experiement with JS events.</p>
+					<p>Our challenge is to experiment with jQuery and AJAX.</p>
 			</div>
 
 			<div id= "problems" class="minor-section">
 					<h2>Problems</h2>
-					<p>There was no problem that my partner and I came across.</p>
+					<p>We did not come across any problem during this lab.
+					</p>
 			</div>
 
-			<div id= "reflection" class="minor-section">
-					<h2>Reflection</h2>
-					<p>We both now have a better understanding of JS events.</p>
+			<div id= "results" class="minor-section">
+					<h2>Result</h2>
+					<p>Floof Counter: <strong id="counter">0</strong></p>
+					<button onclick="handle_random_fox()">Get me a floof</button>
+					<div id="foxes"></div>
 			</div>
-
-			<div class="container">
-					<h2>Results</h2>
-						<div id="output"></div>
-						<button id="submit">Submit</button>
-						<input  type="text" id="user-name" placeholder="Input your name">
-
-                    </div>
-			</div>
+            </div>
 		</section>
 		<nav id="links">
 			<a href="../index.html">Back home</a>
